@@ -85,7 +85,7 @@ def make_template_part1(label,len_label,num):
             all = all+temp
         k = j+1
         start = start+k
-        avg = all/len_label
+        avg = all/pick
         res.append(avg)
 
 
